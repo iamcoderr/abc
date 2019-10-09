@@ -24,6 +24,7 @@ struct node *create()
 {
 	char c;
 	int co,e;
+	e=0;
 	printf("Eneter the power(0 coefficient is LAST) & coefficient:\n");
 	scanf("%d %d",&e,&co);
 	struct node *temp=NULL,*k;
